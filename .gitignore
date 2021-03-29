@@ -1,0 +1,18 @@
+/.settings
+
+target/
+out/
+build/
+dist/
+
+tmp/**
+tmp/**/*
+*.tmp
+
+## .gitignore for mac os x
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+/node_module
