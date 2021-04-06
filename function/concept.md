@@ -1,0 +1,25 @@
+## 部分概念
+
+- Box(v) 包裹值，将其变成一个可函数式操作的容器
+- map(fn) 执行fn, 并返回Box(v), 执行特定函数
+  - `fx.map(f).map(g) === fx.map(g(f(x)))`
+- Either/Maybe 处理分支函数
+  - Left 出现错误的回退机制
+  - Right 正确执行的前进执行机制
+  - 缺点是执行一次分支，多次分支处理使用.chain(Either)
+- Chain/FlatMap/bind/>>=返回确认的值给下一个的函数式Box
+  - `chain(m.map(j))`
+- 半群 SemiGroup
+  - 定义一：对于非空集合 S，若在 S 上定义了二元运算 ○，使得对于任意的 a, b ∈ S,有 a ○ b ∈ S，则称 {S, ○} 为广群。
+  - 定义二：若 {S, ○} 为广群，且运算 ○ 还满足结合律，即：任意 a, b, c ∈ S，有 (a ○ b) ○ c = a ○ (b ○ c)，则称 {S, ○} 为半群。
+  - 满足半群规则的方法，获得稳定计算后的值
+- 幺半群 Monoid 幺半群是一个存在单位元（幺元）的半群
+  - 单元位： 对于半群 <S, O>, 存在 e ∈ S，使得任意 a ∈ S 有 a ○ e = e ○ a
+  - <S, 单位, O,>
+  - eg: 
+  - <Number, 1, *>
+  - <Boolean, true, &&>
+  - <Boolean, false, ||>
+  - <Number, Infinity, Min>
+  - <Number, -Infinity, Max>
+- LazyBox 调用 fold 才会执行
