@@ -32,6 +32,19 @@ function maximalRectangle(matrix) {
     return max
 }
 
+
+
+
+
+
+
+
+99
+
+
+
+
+
 function getMaxArea(heights) {
     if (!heights || !Array.isArray(heights) || heights.length === 0) {
         return 0
@@ -56,7 +69,7 @@ function getMaxArea(heights) {
             }
         }
     }
-    
+
     return max
 }
 
