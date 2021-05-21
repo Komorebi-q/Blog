@@ -1,1 +1,85 @@
-<mxfile host="app.diagrams.net" modified="2021-05-21T03:22:56.781Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" version="14.6.13" etag="33eX88v7PJTbsJiEBlEd" type="github"><diagram id="wp0_nhJSjLfsEP6dWKi4">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-05-21T04:29:27.232Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36" etag="iTq2vG8kHq2PulfYnlEn" version="14.6.13" type="github">
+  <diagram id="wp0_nhJSjLfsEP6dWKi4" name="Page-1">
+    <mxGraphModel dx="1144" dy="914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zaTGJUb0hEFrnS8P2rgF-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zaTGJUb0hEFrnS8P2rgF-1" target="zaTGJUb0hEFrnS8P2rgF-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zaTGJUb0hEFrnS8P2rgF-1" value="&lt;div style=&quot;color: rgb(173 , 186 , 199) ; background-color: rgb(34 , 39 , 46) ; font-family: &amp;#34;fira code&amp;#34; , &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace , &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 21px&quot;&gt;&lt;span style=&quot;color: #dcbdfb&quot;&gt;animationTick&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="70" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zaTGJUb0hEFrnS8P2rgF-5" value="N" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zaTGJUb0hEFrnS8P2rgF-2" target="zaTGJUb0hEFrnS8P2rgF-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zaTGJUb0hEFrnS8P2rgF-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zaTGJUb0hEFrnS8P2rgF-2" target="zaTGJUb0hEFrnS8P2rgF-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zaTGJUb0hEFrnS8P2rgF-8" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zaTGJUb0hEFrnS8P2rgF-7">
+          <mxGeometry x="-0.3067" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zaTGJUb0hEFrnS8P2rgF-2" value="have animation callback" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="200" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="zaTGJUb0hEFrnS8P2rgF-4" value="exit" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zaTGJUb0hEFrnS8P2rgF-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zaTGJUb0hEFrnS8P2rgF-6" target="zaTGJUb0hEFrnS8P2rgF-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zaTGJUb0hEFrnS8P2rgF-6" value="&lt;div style=&quot;color: rgb(173 , 186 , 199) ; background-color: rgb(34 , 39 , 46) ; font-family: &amp;#34;fira code&amp;#34; , &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace , &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 21px&quot;&gt;&lt;span style=&quot;color: #dcbdfb&quot;&gt;requestAnimationFrame&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(173 , 186 , 199) ; background-color: rgb(34 , 39 , 46) ; font-family: &amp;#34;fira code&amp;#34; , &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace , &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 21px&quot;&gt;&lt;span style=&quot;color: #dcbdfb&quot;&gt;WithTimeout&lt;/span&gt;(&lt;span style=&quot;color: #dcbdfb&quot;&gt;animationTick&lt;/span&gt;)&lt;/div&gt;&lt;div style=&quot;color: rgb(173 , 186 , 199) ; background-color: rgb(34 , 39 , 46) ; font-family: &amp;#34;fira code&amp;#34; , &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace , &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 21px&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;color: rgb(173 , 186 , 199) ; background-color: rgb(34 , 39 , 46) ; font-family: &amp;#34;fira code&amp;#34; , &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace , &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 21px&quot;&gt;//for next frame call again&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="330" width="240" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="zaTGJUb0hEFrnS8P2rgF-12" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zaTGJUb0hEFrnS8P2rgF-9">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zaTGJUb0hEFrnS8P2rgF-9" value="// calcute next frame time&lt;br&gt;&lt;br&gt;var nextFrameTime = rafTime - frameDeadline + activeTime" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="255" y="500" width="250" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zaTGJUb0hEFrnS8P2rgF-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zaTGJUb0hEFrnS8P2rgF-13" target="zaTGJUb0hEFrnS8P2rgF-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zaTGJUb0hEFrnS8P2rgF-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zaTGJUb0hEFrnS8P2rgF-13" target="zaTGJUb0hEFrnS8P2rgF-17">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zaTGJUb0hEFrnS8P2rgF-19" value="N" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="zaTGJUb0hEFrnS8P2rgF-18">
+          <mxGeometry x="-0.2727" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zaTGJUb0hEFrnS8P2rgF-13" value="is low frame?&amp;nbsp;&lt;br&gt;prev and next all low frame" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="640" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="zaTGJUb0hEFrnS8P2rgF-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zaTGJUb0hEFrnS8P2rgF-14" target="zaTGJUb0hEFrnS8P2rgF-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zaTGJUb0hEFrnS8P2rgF-14" value="defnesive &amp;lt; 8 frame, and set active frame" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="670" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zaTGJUb0hEFrnS8P2rgF-16" value="Y" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="690" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="zaTGJUb0hEFrnS8P2rgF-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zaTGJUb0hEFrnS8P2rgF-17" target="zaTGJUb0hEFrnS8P2rgF-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zaTGJUb0hEFrnS8P2rgF-17" value="set previousFrameTime" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="810" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zaTGJUb0hEFrnS8P2rgF-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="zaTGJUb0hEFrnS8P2rgF-20" target="zaTGJUb0hEFrnS8P2rgF-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zaTGJUb0hEFrnS8P2rgF-20" value="set frameDeadline" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="970" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zaTGJUb0hEFrnS8P2rgF-23" value="&lt;div style=&quot;color: rgb(173 , 186 , 199) ; background-color: rgb(34 , 39 , 46) ; font-family: &amp;#34;fira code&amp;#34; , &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace , &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 21px&quot;&gt;&lt;div&gt;&lt;span style=&quot;color: #f47067&quot;&gt;if&lt;/span&gt; (&lt;span style=&quot;color: #f47067&quot;&gt;!&lt;/span&gt;isMessageEventScheduled) {&lt;/div&gt;&lt;div&gt;      isMessageEventScheduled &lt;span style=&quot;color: #f47067&quot;&gt;=&lt;/span&gt; &lt;span style=&quot;color: #6cb6ff&quot;&gt;true&lt;/span&gt;;&lt;/div&gt;&lt;div&gt;      port&lt;span style=&quot;color: #f47067&quot;&gt;.&lt;/span&gt;&lt;span style=&quot;color: #dcbdfb&quot;&gt;postMessage&lt;/span&gt;(&lt;span style=&quot;color: #6cb6ff&quot;&gt;undefined&lt;/span&gt;);&lt;/div&gt;&lt;div&gt;    }&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="270" y="1110" width="300" height="100" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
